@@ -101,6 +101,9 @@ app.delete('/api/notes/:id', (req, res) => {
   });
 });
 
+app.get('/check', (req, res) => "yon-naz note app is live");
+
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
