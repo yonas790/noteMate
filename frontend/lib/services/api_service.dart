@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/note.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:3000/api';
+  static const String baseUrl = 'https://csb-note-mate-api.onrender.com/api';
 
   Future<List<Note>> getNotes() async {
     final response = await http.get(Uri.parse('$baseUrl/notes'));
@@ -45,4 +45,4 @@ class ApiService {
       throw Exception('Failed to delete note');
     }
   }
-} 
+}
