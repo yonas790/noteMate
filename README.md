@@ -58,6 +58,6 @@ flutter run
 
 ## Features
 - Create new notes
-- View all notes
+- View all notes (shared notes)
 - Update existing notes
-- Delete notes 
+- Delete notes  
